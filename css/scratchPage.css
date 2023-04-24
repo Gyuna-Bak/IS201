@@ -1,0 +1,73 @@
+
+.common{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    background-color: green;
+    color: white;
+}
+
+
+
+.header{
+    height: 100px;
+    background-color: orange;
+    color: white;
+    line-height: 100px;
+    /* height and line-height should be the same number */
+}
+
+body{
+    border: 20px double green;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mainbody{
+    background-color:blanchedalmond;
+    background-image: url("orange_background.jpg");
+    text-align:center;
+    line-height: auto;
+    padding-top: 20px;
+}
+
+
+
+.footer{
+    height: 25px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+    padding-top: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 520px;
+    height: auto;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+nav a:hover{
+    background-color: #ccc;
+}
